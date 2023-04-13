@@ -4,6 +4,6 @@
     export let imgAlt: string;
 </script>
 
-<a href={href} target="_blank" class="block bg-gray-300 p-1 rounded-lg w-[35px] h-[35px]">
+<a href={href} target="_blank" class="bg-gray-300 p-1 rounded-lg w-[35px] h-[35px] flex justify-center items-center">
     <img src={imgSrc} alt={imgAlt} width="35px" height="35px">
 </a>

@@ -1,5 +1,6 @@
 <script lang="ts">
     import '../app.css';
+    import Card from '$lib/Card.svelte';
 </script>
 
 <svelte:head>
@@ -8,4 +9,9 @@
     <meta name="description" content="Błażej Drozd personal website">
 </svelte:head>
 
-<slot />
+<div class="min-h-screen bg-gray-900 flex justify-center items-center">
+    <Card>
+        <slot />
+    </Card>
+</div>
+
