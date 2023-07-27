@@ -26,4 +26,4 @@ jobs:
           server: https://${{ secrets.ROOT_DOMAIN }}
           app: 'personal-website'
           token: '${{ secrets.APP_TOKEN }}'
-          image: 'ghcr.io/Tsugumik/blazejdrozd.pl:latest'
+          image: 'ghcr.io/tsugumik/blazejdrozd.pl:latest'
