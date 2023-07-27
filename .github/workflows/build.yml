@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Add mask 1
+        run: |
+          echo "::add-mask::${{ secrets.CAPTAIN_URL }}"
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Publish Docker Image
@@ -20,7 +23,7 @@ jobs:
       - name: Deploy on VPS
         uses: caprover/deploy-from-github@v1.1.2
         with:
-          server: https://blazejdrozd.pl
+          server: https://${{ secrets.ROOT_DOMAIN }}
           app: 'sveltekit'
           token: '${{ secrets.APP_TOKEN }}'
           image: 'ghcr.io/Tsugumik/blazejdrozd.pl:latest'
