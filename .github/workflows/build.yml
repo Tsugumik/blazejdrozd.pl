@@ -24,6 +24,6 @@ jobs:
         uses: caprover/deploy-from-github@v1.1.2
         with:
           server: https://${{ secrets.ROOT_DOMAIN }}
-          app: 'personal-website'
+          app: '${{ secrets.APP_NAME }}'
           token: '${{ secrets.APP_TOKEN }}'
           image: 'ghcr.io/tsugumik/blazejdrozd.pl:latest'
