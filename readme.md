@@ -1,2 +1,2 @@
-## tsugumik.github.io
-My personal website.
+## blazejdrozd.pl
+My personal website made in SvelteKit.
