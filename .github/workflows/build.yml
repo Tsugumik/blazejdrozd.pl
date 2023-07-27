@@ -24,6 +24,6 @@ jobs:
         uses: caprover/deploy-from-github@v1.1.2
         with:
           server: https://${{ secrets.ROOT_DOMAIN }}
-          app: 'sveltekit'
+          app: 'personal-website'
           token: '${{ secrets.APP_TOKEN }}'
           image: 'ghcr.io/Tsugumik/blazejdrozd.pl:latest'
