@@ -5,6 +5,9 @@ export default {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
+      },
+      backgroundImage: {
+        'mountains': "url('/background.svg')",
       }
     },
   },
