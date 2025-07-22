@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @tailwind base;
 @tailwind components;
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @tailwind utilities;

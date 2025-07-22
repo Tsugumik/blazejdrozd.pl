@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif']
+        'ubuntu': ['Ubuntu', 'sans-serif']
       },
       backgroundImage: {
         'mountains': "url('/background.svg')",

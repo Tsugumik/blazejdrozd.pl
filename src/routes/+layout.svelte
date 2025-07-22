@@ -9,7 +9,7 @@
     <meta name="description" content="Błażej Drozd personal website">
 </svelte:head>
 
-<div class="min-h-screen bg-mountains bg-no-repeat bg-cover bg-center flex justify-center items-center">
+<div class="font-ubuntu min-h-screen bg-mountains bg-no-repeat bg-cover bg-center flex justify-center items-center">
     <Card>
         <slot />
     </Card>
