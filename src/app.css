@@ -6,7 +6,7 @@
     font-family: "JetBrains Mono";
     font-style: normal;
     font-display: swap;
-    src: url("JetBrainsMono.ttf");
+    src: url("/JetBrainsMono.ttf");
 }
 
 @theme {
