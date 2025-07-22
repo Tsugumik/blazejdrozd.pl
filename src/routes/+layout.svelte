@@ -5,7 +5,7 @@
     let {children} = $props();
 </script>
 
-<div class="font-jetbrains">
+<div>
     <NavBar/>
     {@render children()}
 </div>

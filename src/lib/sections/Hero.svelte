@@ -5,7 +5,7 @@
     <div class="hero-content flex-col lg:flex-row">
         <img
                 alt="avatar"
-                class="max-w-sm rounded-lg shadow-2xl"
+                class="w-80 rounded-lg shadow-2xl"
                 src="avatar.jpg"
         />
         <div>

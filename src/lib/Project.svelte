@@ -10,7 +10,7 @@
     } = $props();
 </script>
 
-<div class="card bg-base-300 w-96 shadow-md">
+<div class="card bg-base-300 w-80 shadow-md">
     <figure>
         <img
                 alt="Project example"
@@ -23,7 +23,7 @@
             <a class="btn btn-primary" href={githubHref} target="_blank">GitHub</a>
         </div>
         <div class="divider"></div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
             {#each tech as _tech}
                 <TechBadge>{_tech}</TechBadge>
             {/each}

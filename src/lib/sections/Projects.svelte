@@ -8,7 +8,7 @@
     <div class="flex flex-row gap-4 justify-around flex-wrap py-2">
         <Project githubHref="https://github.com/Tsugumik/shinden-client" imgHref="shinden-client.jpg"
                  name="Shinden Client"
-                 tech={["Tauri", "Rust", "SvelteKit", "TypeScript"]}>
+                 tech={["Tauri", "SvelteKit", "TypeScript"]}>
             <p>Cross-platform desktop client for Shinden.pl. Offers anime browsing and episode playback. Lightweight and
                 privacy-focused.</p>
         </Project>
