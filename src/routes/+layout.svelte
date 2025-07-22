@@ -1,17 +1,14 @@
 <script lang="ts">
     import '../app.css';
-    import Card from '$lib/Card.svelte';
+    import NavBar from "$lib/NavBar.svelte";
+
+    let {children} = $props();
 </script>
 
-<svelte:head>
-    <title>Błażej Drozd</title>
-    <link rel="icon" href="/github.svg" />
-    <meta name="description" content="Błażej Drozd personal website">
-</svelte:head>
-
-<div class="font-ubuntu min-h-screen bg-mountains bg-no-repeat bg-cover bg-center flex justify-center items-center">
-    <Card>
-        <slot />
-    </Card>
+<div class="font-jetbrains">
+    <NavBar/>
+    {@render children()}
 </div>
+
+
 
