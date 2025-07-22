@@ -11,7 +11,7 @@
         <div>
             <h1 class="text-5xl font-bold">Hi, I'm Błażej</h1>
             <p class="py-6">
-                Frontend developer with 5 years of experience in <strong>SvelteKit</strong>, passionate about <strong>Rust</strong>
+                Frontend developer with 3 years of experience in <strong>SvelteKit</strong>, passionate about <strong>Rust</strong>
                 and open-source projects.
                 I build fast, elegant web apps, cross-platform tools, and 2D games.
                 With a broad tech stack, I work comfortably from UI to embedded systems.
