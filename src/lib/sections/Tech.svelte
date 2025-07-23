@@ -22,8 +22,10 @@
         <Technology isFavorite={true} name="Svelte / SvelteKit" rating={5}/>
         <Technology isFavorite={false} name="HTML / CSS" rating={5}/>
         <Technology isFavorite={true} name="TailwindCSS" rating={5}/>
+        <Technology isFavorite={false} name="Astro" rating={4}/>
+        <Technology isFavorite={false} name="React" rating={4}/>
         <Technology isFavorite={true} name="DaisyUI" rating={4}/>
-        <Technology isFavorite={false} name="React" rating={3}/>
+
     </TechTable>
 
     <TechTable techName="Desktop Development" techType="Technology">
