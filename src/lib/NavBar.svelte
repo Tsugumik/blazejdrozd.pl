@@ -6,7 +6,7 @@
     <div class="flex-1">
         <a class="btn btn-ghost text-xl" href="/">blazejdrozd.pl</a>
     </div>
-    <div class="flex-none">
+    <div class="flex-none px-2">
         <ThemeController/>
     </div>
 </div>
