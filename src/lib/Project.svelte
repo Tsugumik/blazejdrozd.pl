@@ -14,7 +14,9 @@
     <figure>
         <img
                 alt="Project example"
-                src={imgHref}/>
+                src={imgHref}
+                class="w-80 h-60 object-cover"
+        />
     </figure>
     <div class="card-body">
         <h2 class="card-title">{name}</h2>
