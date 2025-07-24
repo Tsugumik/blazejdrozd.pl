@@ -22,6 +22,7 @@
             <div class="flex gap-2 flex-wrap items-center justify-center lg:justify-start">
                 <a class="btn btn-primary" href="#projects">Open Source projects</a>
                 <a class="btn btn-primary" href="#tech">My Tech Stack</a>
+                <a class="btn btn-primary" href="https://blog.blazejdrozd.pl">My personal blog</a>
                 <a class="btn btn-outline" href="#contact">Contact</a>
             </div>
 
