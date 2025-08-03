@@ -7,9 +7,9 @@
         <div class="max-w-md">
             <h2 class="text-5xl font-bold">Contact</h2>
             <p class="py-6">
-                Whether you're a fellow developer, recruiter, or just curious about my work — feel free to reach out.
-                I’m currently open to internship and junior-level opportunities in software development, especially web
-                technologies.
+                Whether you're a fellow developer, recruiter, or simply curious about my work — feel free to reach out.
+                I'm currently open to internship and junior-level opportunities in DevOps and infrastructure engineering.
+                I'm particularly interested in automation, system administration, and developer tooling — but I'm always eager to explore and learn more.
             </p>
             <p class="py-2">You can contact me through the following platforms:</p>
             <ul class="flex gap-2 items-center justify-center flex-wrap">
