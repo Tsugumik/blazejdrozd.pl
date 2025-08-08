@@ -8,8 +8,8 @@
 
     <TechTable techName="Cloud Providers" techType="Cloud">
         <Technology isFavorite={true} name="Cloudflare" rating={5} />
-        <Technology isFavorite={true} name="AWS" rating={2} />
-        <Technology isFavorite={true} name="Google Cloud" rating={2} />
+        <Technology isFavorite={true} name="AWS" rating={4} />
+        <Technology isFavorite={true} name="Microsoft Azure" rating={2} />
     </TechTable>
 
     <TechTable techName="DevOps tools" techType="Tool">
